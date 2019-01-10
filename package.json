@@ -1,0 +1,27 @@
+{
+  "name": "vue-watermark",
+  "author": "Jeffery Gou.",
+  "description": "watermark for html background",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junliepigyao/vue-watermark.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "vue-watermark.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^2.1.1"
+  },
+  "dependencies": {},
+  "spm": {
+    "main": "vue-watermark.js",
+    "ignore": [
+      "support",
+      "test",
+      "vendor"
+    ]
+  }
+}
