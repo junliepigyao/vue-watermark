@@ -1,6 +1,6 @@
 {
-  "name": "vue-watermark",
-  "repo": "junliepigyao/vue-watermark",
+  "name": "js-watermark",
+  "repo": "junliepigyao/js-watermark",
   "description": "watermark for html background",
   "version": "1.0.0",
   "keywords": [
@@ -8,12 +8,12 @@
     "vue"
   ],
   "license": "MIT",
-  "main": ["vue-watermark.js"],
+  "main": ["js-watermark.js"],
   "scripts": [
-    "vue-watermark.js"
+    "js-watermark.js"
   ],
   "styles": [
-    "vue-watermark.css"
+    "js-watermark.css"
   ],
   "ignore": [
     "**/.*",

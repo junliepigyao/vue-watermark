@@ -1,4 +1,4 @@
-# vue-watermark
+# js-watermark
 
 > 网页水印
 
@@ -6,21 +6,18 @@
 
 ``` bash
 # 安装 install
-yarn add vue-watermark --save
+yarn add js-watermark --save
 ```
 ``` bash
 # 使用 use
 --script
-import WaterMark from 'vue-watermark'
-export default {
-  name: 'App',
-  components: {
-    WaterMark
-  }
-}
+import WaterMark from 'js-watermark'
 
---html
-<pic-zoom></pic-zoom>
+WaterMark.configure({
+  user:'Jeffery Gou.',
+  company:'TMDM co.'
+})
+
 ```
 ### Config 配置
 props | describe | default
